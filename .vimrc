@@ -19,7 +19,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'nathanaelkane/vim-indent-guides'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -35,9 +34,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
-" INDENT GUIDE
-let g:indent_guides_enable_on_vim_startup = 1
 
 " YCM
 let g:ycm_confirm_extra_conf = 0
