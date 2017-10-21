@@ -31,9 +31,6 @@ filetype plugin indent on    " required
 " YCM
 let g:ycm_confirm_extra_conf = 1
 
-" PATHOGEN
-execute pathogen#infect()
-
 " NERDTREE
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
