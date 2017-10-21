@@ -18,6 +18,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -43,8 +44,14 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeShowIgnoredStatus = 1
 let g:NERDTreeShowHidden=0
 
-" TABS
+" SOLARIZED
 syntax on
+set number
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+
+" TABS
 set tabstop=2
 set shiftwidth=2
 set expandtab
