@@ -1,6 +1,7 @@
 ### Prerequisites
 
 1. VIM 8+
+1. 3+ GB of Memory to build YCM
 
 ### Instructions
 
