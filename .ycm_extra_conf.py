@@ -7,5 +7,6 @@ flags = [
     '-I..',
 ]
 
-def FlagsForFile( filename, **kwargs ):
-    return { "flags" : flags }
+
+def FlagsForFile(filename, **kwargs):
+    return {"flags": flags}
