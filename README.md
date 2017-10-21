@@ -5,7 +5,11 @@
 1. cmake
 1. python-dev and python3-dev
 
-### Instructions
+### Installation Instructions
 
 1. Clone this repo.
 1. Run `./install.sh`.
+
+### Update Instructions
+
+1. Run `./update.sh`.
