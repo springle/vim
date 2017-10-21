@@ -1,4 +1,8 @@
-# Instructions
+### Prerequisites
+
+1. VIM 8+
+
+### Instructions
 
 1. Clone this repo.
 1. Run `mv .vimrc ~/.vimrc` to set your vimrc.
