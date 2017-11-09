@@ -34,6 +34,7 @@ let g:NERDTreeShowHidden=0
 syntax on
 set number
 set background=dark
+set t_ut=
 let g:solarized_termcolors=256
 colorscheme solarized
 
