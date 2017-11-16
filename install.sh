@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Overwrite current tmux conf
+bash -c "cp .tmux.conf ~/.tmux.conf"
+
 # Overwrite current vimrc
 bash -c "cp .vimrc ~/.vimrc"
 
